@@ -1,7 +1,7 @@
 // console.log(1)
 async function getMatchData() {
     // console.log(2)
-    return await fetch("https://api.cricapi.com/v1/cricScore?apikey=f19a5046-da30-4db6-a542-d7374b7d30bb")
+    // return await fetch("https://api.cricapi.com/v1/cricScore?apikey=f19a5046-da30-4db6-a542-d7374b7d30bb")
         .then(data => data.json())
         .then(data => {
             if (data.status != "success")return;
