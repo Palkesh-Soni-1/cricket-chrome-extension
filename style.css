@@ -27,6 +27,7 @@ body {
 }
 #matches li{
     margin: 0 2rem 1.2rem 2rem;
+    transition-duration:0.8s;
     /* margin-bottom:1.2rem ; */
 }
 #matches li:hover
@@ -34,6 +35,8 @@ body {
     font-size: 2rem;
     color: rgb(0, 255, 255);
     margin: 0 2rem 1.2rem 2rem;
+    /* transition-duration:0.8s; */
+
     /* margin-bottom:1.2rem ; */
 }
 #head{
@@ -45,6 +48,7 @@ body {
     background-color: rgb(4, 90, 90);
     border: 2px solid black;
     padding: 0.5rem;
+    transition-duration:0.8s;
     /* margin: 2rem; */
 }
 #head:hover{
@@ -68,6 +72,7 @@ body {
     width: 100%;
     position: absolute;
     bottom: 0px;
+    /* transition-duration:0.8s; */
 }
 footer{
     position:relative;
@@ -149,6 +154,7 @@ footer{
         width: 100%;
         background-color: rgb(4, 90, 90);
         border: 2px solid black;
+        transition-duration:0.8s;
         /* margin: 2rem; */
     }
     #head:hover{
@@ -159,6 +165,7 @@ footer{
         color: white;
         background:none;
         border: 2px solid aqua;
+        transition-duration:0.8s;
         /* margin: 2rem; */
     }
     .end{
@@ -236,6 +243,7 @@ footer{
     }
     #matches li{
         margin: 0 0.5rem 1rem 0.5rem;
+        transition-duration:0.8s;
         /* margin-bottom:1.2rem ; */
     }
     #matches li:hover
