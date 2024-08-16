@@ -10,7 +10,7 @@ async function getMatchData() {
 
             if(!matchesList)return [];
             // const relevantData = matchesList.match.map(match => `${match.name}, ${match.status}`);
-            const relevantData = matchesList.filter(match=>match.series=="India tour of Sri Lanka, 2024").map(match => `${match.t1} vs ${match.t2} , \n Score -:  ${match.t1}-: ${match.t1s} , ${match.t2}-: ${match.t2s} \n ${match.status} ,  \n Date&Time-:  ${match.dateTimeGMT}`);
+            const relevantData = matchesList.filter(match=>match.series=="South Africa tour of West Indies, 2024").map(match => `${match.t1} vs ${match.t2} , \n Score -:  ${match.t1}-: ${match.t1s} , ${match.t2}-: ${match.t2s} \n ${match.status} ,  \n Date&Time-:  ${match.dateTimeGMT}`);
             // console.log(match.series);
             // document.getElementById("head").innerHTML = `${match.series} ongoing matches`;
 
